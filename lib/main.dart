@@ -284,7 +284,7 @@ class _MyAppState extends State<MyApp> {
                           child: Align(
                             alignment: Alignment.center,
                             child: Text('${_calcCost()} рублей',
-                                style: Theme.of(context).textTheme.bodyText1),
+                                style: Theme.of(context).textTheme.bodyText1 ),
                           ),
                         ),
                       ),
